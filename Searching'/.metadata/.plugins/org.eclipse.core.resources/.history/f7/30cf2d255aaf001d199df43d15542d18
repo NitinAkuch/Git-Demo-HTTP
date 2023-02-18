@@ -1,0 +1,21 @@
+package Binary;
+import java.util.Scanner;
+
+
+public class LastOccurence {
+
+	public static void main(String[] args) {
+		int[] arr = {5,10,10,10,20,20,50,55,55,60,60,88};
+		int L = arr.length;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number from given array:");
+		int x = sc.nextInt();
+		for(int i=0;i<L;i++) {
+			System.out.print(arr[i]+" ");
+		}
+		
+		LastOccurence LC = new LastOccurence();
+		int lastIndex = LC.lastOccurence(arr,x, L);
+	}
+
+}

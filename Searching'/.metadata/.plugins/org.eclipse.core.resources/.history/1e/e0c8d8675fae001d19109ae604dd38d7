@@ -1,0 +1,12 @@
+package Binary;
+
+public class BinarySearch {
+	
+	public static void main(String[] args) {
+		int[] arr1 = {10,30,80,40,5,47,25,5,2,5,5,255,45};
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,18 @@
+package Binary;
+
+public class FirstOccurence {
+	
+	static int firstOccurence(int[] arr, int x) {
+		return -1;
+		
+	}
+
+	public static void main(String[] args) {
+	int[] arr = {5,10,10,10,20};
+	int x= 10;
+	int index = firstOccurence(arr, x);
+	
+
+	}
+
+}

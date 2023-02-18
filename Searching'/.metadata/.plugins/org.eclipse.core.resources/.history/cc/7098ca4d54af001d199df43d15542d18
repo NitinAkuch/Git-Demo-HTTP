@@ -1,0 +1,12 @@
+package Binary;
+
+public class FirstOccurence {
+
+	public static void main(String[] args) {
+	int[] arr = {5,10,10,10,20};
+	int x= 10;
+	
+
+	}
+
+}
