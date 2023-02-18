@@ -17,7 +17,7 @@ public class FirstOccurence {
 			}
 			else{
 				
-			if(mid==0 || arr[mid-1]!=arr[mid]){ //Important repeat again and again
+			if(mid==0 || arr[mid-1]!=arr[mid]){ //Important repeat again nad again
 				return mid;
 			}
 			else high=mid-1;

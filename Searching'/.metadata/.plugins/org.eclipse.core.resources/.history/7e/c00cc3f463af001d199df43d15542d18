@@ -37,9 +37,7 @@ public class LastOccurence {
 				high=mid-1;
 			}
 			else {
-				if(mid == n-1 || arr[mid+1] != arr[mid]) //Important Repeat again and again.
-														//Same problem on GFG is wrong. i.e.mid == n-1==>right
-														//									mid != n-1==>Wrong
+				if(mid ==n-1 || arr[mid+1] != arr[mid]) //Important Repeat again and again
 					return mid;
 				else
 					low=mid+1;
