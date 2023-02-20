@@ -1,0 +1,12 @@
+package Binary;
+
+public class NumberOfOccurences {
+
+	public static void main(String[] args) {
+		int[] arr = {5,10,10,10,20,20,50,55,55,60,60,88};
+		int L = arr.length;
+		
+
+	}
+
+}
